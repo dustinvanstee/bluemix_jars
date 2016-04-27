@@ -15,7 +15,8 @@ function handleClick(home,away,tl,spr,teamh,teama) {
 
   var mytestquery = jQuery.ajax({
     //url: 'http://bdxcat2.pbm.ihost.com:8983/solr/t/select',
-     url: 'http://localhost:6001/scoreprediction/' + sd + '/' + tl + '/' + spr,
+     //url: 'http://localhost:6001/scoreprediction/' + sd + '/' + tl + '/' + spr,
+     url: 'http://nba-rt-prediction.mybluemix.net/scoreprediction/' + sd + '/' + tl + '/' + spr,
     success: function (data){
         //console.log("output =" + $.data)
         console.log("data = "+ JSON.stringify(data));
