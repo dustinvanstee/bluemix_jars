@@ -11,7 +11,7 @@ function handleClick(home,away,tl,spr,teamh,teama) {
 
   var sd =  parseInt(home) - parseInt(away)
   console.log("sd =" + sd);
-  console.log('http://localhost:6001/scoreprediction/' + sd + '/' + tl + '/' + spr)
+  //console.log('http://localhost:6001/scoreprediction/' + sd + '/' + tl + '/' + spr)
 
   var mytestquery = jQuery.ajax({
     //url: 'http://bdxcat2.pbm.ihost.com:8983/solr/t/select',
